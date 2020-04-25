@@ -25,13 +25,13 @@ include("db.php");
 
 //file news page local copy
 $html=file_get_html("rgpv.html");
-$rgpvkiurl="NULL";
 
 // for each news
 foreach($html->find(".tab-content div div") as $news){
 	//get inner text (it dosent include container)
 	$text=$news->innertext;
-
+  $rgpvkiurl="NULL";
+  
 // extracting url from news (if any)
     if(preg_match_all('/<a[^>]+href=([\'"])(?<href>.+?)\1[^>]*>/i', $text, $result)){
     if (!empty($result)) {
