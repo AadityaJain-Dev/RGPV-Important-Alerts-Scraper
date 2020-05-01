@@ -16,6 +16,6 @@
 As of now, the only reliable way of keeping track of RGPV activity is to visit their website manually.
 
 
-You can read more about the project on [my blog](#).
+You can read more about the project on [my blog](https://aadityajain-dev.blogspot.com/2020/05/rgpv-alerts-retriever-ver-20-20204.html).
 
-If you want to make your own scraper, [you can read it here](#).
+If you want to make your own scraper, [you can read it here](https://aadityajain-dev.blogspot.com/2020/05/rgpv-alerts-retriever-ver-20-20204.html).
